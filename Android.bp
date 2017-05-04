@@ -51,7 +51,11 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java", "src/**/*.kt",
+       "Blissify/src/**/*.java"],
+
+    aaptflags: ["--extra-packages org.blissroms.blissify"],
+
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/shared/**/*.kt",
     ],
@@ -60,6 +64,7 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
+        "Blissify/res",
     ],
     static_libs: [
         // External dependencies
@@ -119,6 +124,9 @@ android_library {
         "telephony-common",
         "ims-common",
     ],
+    optimize: {
+        proguard_flags_files: ["proguard-core.flags"],
+    },
 }
 
 platform_compat_config {
