@@ -458,4 +458,7 @@
 
     <string name="battery_temperature">Battery temperature</string>
 
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Misc Haptics</string>
+
 </resources>
