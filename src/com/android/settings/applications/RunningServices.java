@@ -90,7 +90,7 @@ public class RunningServices extends SettingsPreferenceFragment {
         switch (item.getItemId()) {
             case SHOW_RUNNING_SERVICES:
                 mRunningProcessesView.mAdapter.setShowBackground(false);
-                getActivity().setTitle(R.string.runningservices_settings_title);
+                getActivity().setTitle(com.android.settingslib.R.string.runningservices_settings_title);
                 break;
             case SHOW_BACKGROUND_PROCESSES:
                 mRunningProcessesView.mAdapter.setShowBackground(true);
