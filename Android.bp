@@ -110,7 +110,6 @@ android_library {
         "statslog-settings",
         "glide",
 	"VendorSupport-preference",
-        "vendor.lineage.trust-V1.0-java",
         "kotlin-stdlib",
         "kotlinx_coroutines_android",
         "kotlinx_coroutines",

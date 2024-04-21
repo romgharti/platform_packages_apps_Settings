@@ -14,19 +14,6 @@
 -->
 <resources>
 
-    <!-- Restrict USB -->
-    <string-array name="trust_restrict_usb_entries" translatable="false">
-        <item>@string/trust_restrict_usb_always</item>
-        <item>@string/trust_restrict_usb_keyguard</item>
-        <item>@string/trust_restrict_usb_disabled</item>
-    </string-array>
-
-    <string-array name="trust_restrict_usb_values" translatable="false">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-
     <!-- Hardware key rebinding -->
     <string-array name="hardware_keys_action_entries" translatable="false">
         <item>@string/hardware_keys_action_nothing</item>
