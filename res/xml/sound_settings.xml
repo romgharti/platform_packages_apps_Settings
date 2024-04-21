@@ -235,7 +235,7 @@
         android:order="-45"/>
 
     <!-- Screenshot sound -->
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="screenshot_shutter_sound"
         android:title="@string/screenshot_shutter_sound_title"
         android:order="-43"/>

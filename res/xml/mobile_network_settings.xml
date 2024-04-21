@@ -259,7 +259,7 @@
             settings:keywords="@string/keywords_nr_advanced_calling"
             settings:controller="com.android.settings.network.telephony.NrAdvancedCallingPreferenceController"/>
 	
-	<SwitchPreference
+	<SwitchPreferenceCompat
                 android:key="smart_5g"
                 android:title="@string/smart_5g_title"
                 android:persistent="false"
